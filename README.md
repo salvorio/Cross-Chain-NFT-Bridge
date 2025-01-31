@@ -7,12 +7,13 @@ This documentation outlines the implementation of a **Cross-Chain NFT Bridge** b
 2. [How the Bridge Works](#how-the-bridge-works)
 3. [Chainlink CCIP Overview](#chainlink-ccip-overview)
 4. [Smart Contract Architecture](#smart-contract-architecture)
+5. [Roadmap](#roadmap)
 
-# 1. Introduction
+## 1. Introduction
 
 The **Cross-Chain NFT Bridge** allows users to securely transfer NFTs between Avalanche and other blockchains, enabling seamless interoperability. NFTs locked on one chain can be minted on the destination chain through the use of Chainlink’s **CCIP**, providing decentralized and trustless validation for cross-chain operations.
 
-# 2. How the Bridge Works
+## 2. How the Bridge Works
 
 The bridge operates by locking NFTs on the source blockchain and minting an equivalent NFT on the target blockchain. Below are the core steps of the process:
 
@@ -21,7 +22,7 @@ The bridge operates by locking NFTs on the source blockchain and minting an equi
 3. **Minting on the Target Chain**: Once the validation is confirmed by Chainlink, an equivalent NFT is minted on the target blockchain.
 4. **Unlocking the NFT**: If the user wants to return the NFT to the source chain, they can initiate a reverse transaction, unlocking the NFT on the target chain and burning the minted NFT on the destination.
 
-# 3. Chainlink CCIP Overview
+## 3. Chainlink CCIP Overview
 
 Chainlink’s **Cross-Chain Interoperability Protocol (CCIP)** is used to create decentralized bridges for transferring tokens and data between blockchains. By using CCIP, we leverage the power of Chainlink’s decentralized network of oracles to securely relay information between multiple blockchains.
 
@@ -51,7 +52,7 @@ The architecture consists of two primary smart contracts: one deployed on the so
 
 
 
-# 5. Roadmap
+## 5. Roadmap
 
 ### Step 1: Ethereum and Avalanche Interoperability
 
