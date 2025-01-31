@@ -3,11 +3,11 @@
 This documentation outlines the implementation of a **Cross-Chain NFT Bridge** between the Avalanche blockchain and other supported networks. The bridge leverages **Chainlink's Cross-Chain Interoperability Protocol (CCIP)** for decentralized validation, ensuring secure and reliable transfer of NFTs across multiple blockchains.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [How the Bridge Works](#how-the-bridge-works)
-3. [Chainlink CCIP Overview](#chainlink-ccip-overview)
-4. [Smart Contract Architecture](#smart-contract-architecture)
-5. [Roadmap](#roadmap)
+1. [Introduction](#1-introduction)
+2. [How the Bridge Works](#2-how-the-bridge-works)
+3. [Chainlink CCIP Overview](#3-chainlink-ccip-overview)
+4. [Smart Contract Architecture](#4-smart-contract-architecture)
+5. [Roadmap](#5-roadmap)
 
 ## 1. Introduction
 
