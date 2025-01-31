@@ -66,8 +66,9 @@ In the initial phase, the NFT bridge will support cross-chain interoperability b
 
 In the next phase, the bridge will expand to include other **Layer-1** blockchains, allowing for more flexibility and greater interoperability. This phase will focus on:
 
-- Enabling seamless communication between Avalanche Layer-1 and its main network for cross-chain NFT transfers.
+- **Enabling seamless communication between Avalanche Layer-1 and its main network for cross-chain NFT transfers**: The bridge will leverage **Inter-Chain Communication (ICM)** protocols to allow Avalanche Layer-1 and the Avalanche main network to seamlessly exchange data and NFTs. This ensures that NFTs locked on one chain can be accurately minted or transferred on the other without issues.
 - Testing and ensuring smooth operation for cross-chain transfers.
+
 
 ### Step 3: Supporting Major Blockchain Networks
 
