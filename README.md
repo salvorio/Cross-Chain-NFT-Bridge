@@ -1,4 +1,4 @@
-# Cross-Chain NFT Bridge with ICM && Chainlink CCIP
+# Cross-Chain NFT Bridge with ICM & Chainlink CCIP
 
 This documentation outlines the implementation of a Cross-Chain NFT Bridge between the **Avalanche blockchain** and other supported networks. Initially, the bridge leverages **Avalanche’s Inter-Chain Communication** (ICM) and **Teleporter Contracts** to enable decentralized validation and secure NFT transfers between Avalanche and non-EVM blockchains.
 
